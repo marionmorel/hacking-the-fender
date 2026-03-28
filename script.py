@@ -27,3 +27,19 @@ with open('compromised_users.txt', 'w') as compromised_user_file:
 
 # Task 10
         compromised_user_file.write(compromised_user + '\n')
+
+# Task 11
+# Task 12
+import json
+
+# Task 13
+with open('boss_message.json', 'w') as boss_message:
+
+# Task 14
+    boss_message_dict = {
+        "recipient": "The Boss",
+        "message": "Mission Success"
+    }
+
+# Task 15
+    json.dump(boss_message_dict, boss_message)
